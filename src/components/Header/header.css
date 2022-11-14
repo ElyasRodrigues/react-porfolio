@@ -1,0 +1,111 @@
+.headerContainer{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 60px;
+  user-select: none;
+  background-color: rgb(15, 14, 14);
+  box-shadow: 0px 17px 44px 19px rgba(25,25,25,0.92);
+
+}
+
+.headerContainer .logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  transition: .6s;
+  animation: animLogo 5s alternate infinite;
+}
+.headerContainer .logo:hover{
+  transform: scale(1.2);
+
+}
+.headerContainer .logo h2{
+  margin-left: 22px;
+}
+
+.headerContainer .anchors{
+  display: flex;
+  gap: 18px;
+  font-weight: bold;
+}
+.headerContainer .anchors a{
+  text-decoration: none;
+  transition: 0.5s;
+}
+.headerContainer .anchors a:hover{
+  transform: scale(1.2);
+  color: #b3b3b88f;
+}
+
+@keyframes animLogo {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.1);
+  }
+}
+
+/* Menu hamburger */
+#headerMenu{
+  width: 0;
+  height: 100%;
+  z-index: 9;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+  background-color: rgba(57, 57, 63, 0.877);
+  transition: all .6s;
+
+}
+#navBtnClose{
+  position: absolute;
+  right: 5px;
+  font-size: 40px;
+}
+.headerAnchors2{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 15%;
+  font-family: 'Trebuchet MS';
+}
+.headerAnchors2 a{
+  padding: 25px;
+  display: block;
+  font-size: 24px;
+  transform: 0.3s;
+  font-weight: bold;
+}
+#navBtn{
+  background: transparent;
+  border: 0;
+  font-size: 22px;
+  cursor: pointer;
+}
+.hide{
+  display: none;
+}
+@media (max-width: 730px){
+  .hide{
+    display: block;
+    }
+  .headerContainer .anchors{
+    display: none;
+  }
+}
+@media (max-width: 440px){
+  .headerContainer{
+    padding: 0 15px;
+  }
+  .headerContainer .logo{
+    font-size: 14px;
+  }
+
+}
+
