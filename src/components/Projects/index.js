@@ -52,8 +52,8 @@ return(
              <Card title="Qr Generate"
               subtitle="Um gerador de QrCode feito com REACT JS"
               description="Projeto desenvolvido no intuido de me familiarizar com o REACT JS"
-              project="#"
-              repository="#"
+              project="https://elyasrodrigues.github.io/qrGenerate/"
+              repository="https://github.com/ElyasRodrigues/qrGenerate"
             />
             <Card title="Todo List"
               subtitle="Lista de Tarefa feito com Javascript"
