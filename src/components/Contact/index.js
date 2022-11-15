@@ -1,12 +1,19 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import "./contact.css"
 import emailjs from "@emailjs/browser"
 import { toast } from "react-toastify"
+import AOS from "aos"
+import 'aos/dist/aos.css';
 
 export default function Contact(){
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
+
+  useEffect(() => {
+    AOS.init({duration: 2000})
+  }, [])
+
 
   const sendEmail = (e) => {
     e.preventDefault()
@@ -30,17 +37,18 @@ export default function Contact(){
       setEmail("")
       setMessage("")
     }, (error) => {
-      toast.error("Não foi possível enviar o Email! :(\n"+ "Tente novamente mais tarde!")
+      toast.error(`Não foi possível enviar o Email! :(
+        "Tente novamente mais tarde!`)
       console.log("Erro: " , error);
     })
 
   }
 
   return(
-    <div className="contactContainer">
-      <h1>Contato</h1>
+    <div className="contactContainer" data-aos="zoom-in-up">
+      <h1 id="contact">Contato</h1>
 
-      <div className="contactContent">
+      <div className="contactContent" >
 
         <form className="contactForm" onSubmit={sendEmail}>
           <label>Seu nome:</label>

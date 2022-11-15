@@ -67,6 +67,9 @@
   position: absolute;
   right: 5px;
   font-size: 40px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
 }
 .headerAnchors2{
   position: relative;

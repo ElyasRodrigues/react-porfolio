@@ -9,23 +9,23 @@ return(
         <h4>Dev Front - end</h4>
       </div>
       <nav className="anchors" id="headerAnchors">
-        <a href="javascript:void(0)">Sobre Mim</a>
-        <a href="javascript:void(0)">Skills</a>
-        <a href="javascript:void(0)">Projetos</a>
-        <a href="javascript:void(0)">Contato</a>
+        <a href="#AboutMe">Sobre Mim</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
       </nav>
       <button id="navBtn" className="hide" onClick={() => {document.getElementById("headerMenu").style.width = "85%"}}>
         <FaBars/>
       </button>
       <div id="headerMenu">
-        <a href="javascript:void(0)" id="navBtnClose" onClick={() => { document.getElementById("headerMenu").style.width = "0"}}>
+        <button href="#" id="navBtnClose" onClick={() => { document.getElementById("headerMenu").style.width = "0"}}>
           &times;
-        </a>
+        </button>
         <div className="headerAnchors2">
-          <a href="javascript:void(0)">Sobre mim</a>
-          <a href="javascript:void(0)">Skills</a>
-          <a href="javascript:void(0)">Projetos</a>
-          <a href="javascript:void(0)">Contato</a>
+          <a href="#AboutMe">Sobre mim</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projetos</a>
+          <a href="#contact">Contato</a>
 
         </div>
       </div>

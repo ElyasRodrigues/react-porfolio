@@ -1,24 +1,30 @@
+import { useEffect } from "react";
 import "./aboutme.css"
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
+import AOS from "aos"
+import 'aos/dist/aos.css';
 
 export default function AboutMe(){
+  useEffect(() => {
+    AOS.init({duration: 2000})
+  })
   return(
     <div className="aboutMecontainer">
       <h1 id="aboutMe">Sobre mim</h1>
 
       <div className="content">
-        <div className="profile">
+        <div className="profile" data-aos="fade-right">
           <img src="/assets/images/perfil.jpg" alt="perfil.jpg"/>
           <h3>
             Elyas Rodrigues
           </h3>
           <p className="socialNetworks">
-            <a href="#"><FaGithub/></a>
-            <a href="#"><FaLinkedin/></a>
-            <a href="#"><FaInstagram/></a>
+            <a href="https://github.com/ElyasRodrigues/" target={"blank"}><FaGithub/></a>
+            <a href="https://www.linkedin.com/in/elyasrodrigues/" target={"blank"}><FaLinkedin/></a>
+            <a href="https://www.instagram.com/oelyasrodrigues/" target={"blank"}><FaInstagram/></a>
           </p>
         </div>
-        <div className="contentText">
+        <div className="contentText" data-aos="fade-left">
           <p className="text">
             Olá mundo!! me chamo Elyas Rodrigues, tenho 19 anos e sou natural do RJ, porém atualmente moro no interior do Maranhão desde 2015.  
             <br/>

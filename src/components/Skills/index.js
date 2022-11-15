@@ -1,10 +1,16 @@
 import "./skills.css"
+import AOS from "aos"
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 export default function Skills(){
+  useEffect(() => {
+    AOS.init({duration: 2000})
+  })
   return(
     <div className="skillsContainer">
       <h1 id="skills"> Skills </h1>
-      <div className="skillsContent">
+      <div className="skillsContent" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <ul className="skillsList">
           <li className="skillsItem">
             <img src="/assets/images/html5-colored.svg" alt="jhtml5-logo" title="HTML5"/>
