@@ -12,13 +12,9 @@
 .skillsContent{
   width: 50%;
   min-height: 300px;
-  border: 2px solid #000000;
+  border: 2px solid #ffffff;
   border-radius: 8px;
-  background-color: #00000069;
-  box-shadow: 20px 18px 22px 5px rgba(0,0,0,0.87);
-  -webkit-box-shadow: 20px 18px 22px 5px rgba(0,0,0,0.87);
-  -moz-box-shadow: 20px 18px 22px 5px rgba(0,0,0,0.87);
-
+  background-color: #1d1d1d8e;
 }
 .skillsContent .skillsList{
   list-style: none;

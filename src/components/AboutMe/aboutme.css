@@ -14,9 +14,8 @@
   gap: 15px;
 }
 .content .profile{
-  background-color: #00000069;
-  box-shadow: 22px 24px 26px 5px rgba(0,0,0,0.86);
-  border: 2px solid #000;
+  background-color: #1d1d1d8e;
+  border: 3px solid #ffffff;
   border-radius: 8px;
   text-align: center;
   padding: 15px;
@@ -36,9 +35,8 @@
   margin: 0 10px;
 }
 .content .contentText{
-  background-color: #242323de;
-  box-shadow: 22px 24px 26px 5px rgba(0,0,0,0.86);
-  border: 2px solid #000;
+  background-color: #1d1d1d8e;
+  border: 3px solid #ffffff;
   border-radius: 8px;
   text-align: justify;
   padding: 15px;

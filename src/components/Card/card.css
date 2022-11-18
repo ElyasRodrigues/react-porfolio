@@ -5,12 +5,12 @@
   width: 290px;
   height: 190px;
   border-radius: 8px;
-  border: 2px solid #000;
+  border: 3px solid #ffffff;
   padding: 14px;
   text-align: justify;
   transition: transform 0.6s;
 
-  background-color: #00000069;
+  background-color: #1d1d1d8e;
   box-shadow: 20px 18px 22px 5px rgba(0,0,0,0.87);
   -webkit-box-shadow: 20px 18px 22px 5px rgba(0,0,0,0.87);
   -moz-box-shadow: 20px 18px 22px 5px rgba(0,0,0,0.87);
