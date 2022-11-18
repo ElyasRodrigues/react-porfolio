@@ -13,7 +13,7 @@ export default function AboutMe(){
       <h1 id="aboutMe">Sobre mim</h1>
 
       <div className="content">
-        <div className="profile" data-aos="fade-right">
+        <div className="profile">
           <img src="/assets/images/perfil.jpg" alt="perfil.jpg"/>
           <h3>
             Elyas Rodrigues
@@ -24,7 +24,7 @@ export default function AboutMe(){
             <a href="https://www.instagram.com/oelyasrodrigues/" target={"blank"}><FaInstagram/></a>
           </p>
         </div>
-        <div className="contentText" data-aos="fade-left">
+        <div className="contentText">
           <p className="text">
             Olá mundo!! me chamo Elyas Rodrigues, tenho 19 anos e sou natural do RJ, porém atualmente moro no interior do Maranhão desde 2015.  
             <br/>
