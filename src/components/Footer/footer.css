@@ -12,6 +12,7 @@
 }
 @media (max-width: 400px){
   .footerContainer{
+    margin-top: 20px;
     font-size: 14px;
     padding: 0;
   }

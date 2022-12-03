@@ -26,9 +26,9 @@ export default function AboutMe(){
         </div>
         <div className="contentText">
           <p className="text">
-            Olá mundo!! me chamo Elyas Rodrigues, tenho 19 anos e sou natural do RJ, porém atualmente moro no interior do Maranhão desde 2015.  
+            Olá, me chamo Elyas Rodrigues, tenho 19 anos e hoje em dia moro no Maranhão.  
             <br/>
-            Sei que é muito clichê, mas desde muito novo sempre fui fascinado pela tecnologia, passava horas na frente de uma tela. Sempre quando eu usava algo relacionado a tecnologia, desde uma simples calculadora a um 'moderno' computador, eu sempre me perguntava: "como isso funciona?". Até que em 2021 eu conheci a programação e foi ali que as peças começaram a se encaixar, e a partir daquele momento não demorou muito para descobrir que era isso que eu queria para minha vida.
+            Sei que é bem clichê, mas desde muito novo sempre fui fascinado pela tecnologia, passava horas na frente de uma tela. Sempre quando eu usava algo relacionado a tecnologia, desde uma simples calculadora a um 'moderno' computador, eu sempre me perguntava: "como isso funciona?". Até que eu conheci a programação, e a partir daquele momento não demorou muito para descobrir que era isso que eu queria para minha vida e atualmente estou aprimorando minhas habilidades e conhecimentos nas tecnologias mais requisitadas no front-end.
             <br/>
             <br/>
             Enfim, espero que possamos trabalhar juntos algum dia. 🤝
