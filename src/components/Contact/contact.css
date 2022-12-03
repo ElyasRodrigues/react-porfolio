@@ -11,9 +11,13 @@
 .contactContent{
   margin: 0 auto;
   width: 400px;
+<<<<<<< HEAD
   background-color: #00000069;
+=======
+  background-color: #1d1d1d8e;
+>>>>>>> thema
   box-shadow: 22px 24px 26px 5px rgba(0,0,0,0.86);
-  border: 2px solid #000;
+  border: 3px solid #ffffff;
   border-radius: 8px;
   padding: 15px 15px 25px 15px;
 
@@ -58,6 +62,7 @@
 
 @media (max-width: 400px){
   .contactContent{
+<<<<<<< HEAD
     max-width: 320px;
     margin: 10px;
   }
@@ -65,6 +70,9 @@
 @media (max-width: 360px){
   .contactContent{
     max-width: 300px;
+=======
+    width: 300px;
+>>>>>>> thema
     margin: 10px;
   }
 }

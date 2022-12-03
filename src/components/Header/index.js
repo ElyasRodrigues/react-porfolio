@@ -9,7 +9,7 @@ return(
         <h4>Dev Front - end</h4>
       </div>
       <nav className="anchors" id="headerAnchors">
-        <a href="#AboutMe">Sobre Mim</a>
+        <a href="#aboutMe">Sobre Mim</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projetos</a>
         <a href="#contact">Contato</a>
@@ -22,7 +22,7 @@ return(
           &times;
         </button>
         <div className="headerAnchors2">
-          <a href="#AboutMe">Sobre mim</a>
+          <a href="#aboutMe">Sobre mim</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projetos</a>
           <a href="#contact">Contato</a>
