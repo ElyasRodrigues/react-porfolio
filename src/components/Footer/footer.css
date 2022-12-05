@@ -12,16 +12,9 @@
 }
 @media (max-width: 400px){
   .footerContainer{
-<<<<<<< HEAD
-    font-size: 14px;
-    padding: 0px 10px;
-
-  }
-}
-=======
     margin-top: 20px;
     font-size: 14px;
-    padding: 0;
+    padding: 0px 10px;
   }
 }
->>>>>>> thema
+
