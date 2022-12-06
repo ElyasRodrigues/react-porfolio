@@ -17,7 +17,7 @@ return(
     <div className="projectsContainer">
       <h1 id="projects">Projetos</h1>
       <div className="projectCards">
-        <Card img="/assets/images/ImgProjetos/calcJs.PNG"
+        <Card img="/assets/images/ImgProjetos/calcJS.PNG"
           title="Calc Js"
           subtitle="Calculadora com todas as operações básicas e troca de tema"
           project="https://elyasRodrigues.github.io/calcJs"
