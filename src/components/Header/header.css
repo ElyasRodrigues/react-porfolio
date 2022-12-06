@@ -23,9 +23,7 @@
   transform: scale(1.2);
 
 }
-.headerContainer .logo h2{
-  margin-left: 22px;
-}
+
 
 .headerContainer .anchors{
   display: flex;
