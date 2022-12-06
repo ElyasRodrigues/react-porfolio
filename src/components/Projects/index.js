@@ -46,7 +46,7 @@ return(
             <Card img="/assets/images/ImgProjetos/rLinks.PNG"
             title="R Link's"
               subtitle="Um App Web para salvar links conectado com o Firebase"
-              project="https://elyaslinks.vercel.app/"
+              project="https://rlinks.vercel.app/"
               repository="https://github.com/ElyasRodrigues/devLink"
             />
              <Card img="/assets/images/ImgProjetos/qrGenerate.PNG"
