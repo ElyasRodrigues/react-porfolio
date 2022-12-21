@@ -23,11 +23,11 @@ return(
           project="https://elyasRodrigues.github.io/calcJs"
           repository="https://github.com/ElyasRodrigues/calcJs"
         />
-        <Card img="/assets/images/ImgProjetos/tictactoe.PNG"
-          title="Tic Tac Toe"
-          subtitle="O famoso jogo da velha, para 2 jogadores"
-          project="https://elyasRodrigues.github.io/TicTacToe"
-          repository="https://github.com/ElyasRodrigues/TicTacToe"
+        <Card img="/assets/images/ImgProjetos/rLinks.PNG"
+        title="R Link's"
+          subtitle="Um App Web para salvar links conectado com o Firebase"
+          project="https://rlinks.vercel.app/"
+          repository="https://github.com/ElyasRodrigues/devLink"
         />
         <Card img="/assets/images/ImgProjetos/memoryGame.PNG"
           title="Memory game"
@@ -37,17 +37,17 @@ return(
         />
         {showProjectsAll && (
           <>
+            <Card img="/assets/images/ImgProjetos/tictactoe.PNG"
+              title="Tic Tac Toe"
+              subtitle="O famoso jogo da velha, para 2 jogadores"
+              project="https://elyasRodrigues.github.io/TicTacToe"
+              repository="https://github.com/ElyasRodrigues/TicTacToe"
+            />
             <Card img="/assets/images/ImgProjetos/oneBitX.PNG"
             title="OneBitX"
               subtitle="Clone da página da SpaceX desenvolvido com Bootstrap"
               project="https://elyasRodrigues.github.io/oneBitX"
               repository="https://github.com/ElyasRodrigues/oneBitX"
-            />
-            <Card img="/assets/images/ImgProjetos/rLinks.PNG"
-            title="R Link's"
-              subtitle="Um App Web para salvar links conectado com o Firebase"
-              project="https://rlinks.vercel.app/"
-              repository="https://github.com/ElyasRodrigues/devLink"
             />
              <Card img="/assets/images/ImgProjetos/qrGenerate.PNG"
              title="Qr Generate"
@@ -60,6 +60,12 @@ return(
               subtitle="projeto feito em Javascript com armazenamento no Local Storage"
               project="https://elyasrodrigues.github.io/todoList/"
               repository="https://github.com/ElyasRodrigues/todoList"
+            />
+            <Card img="/assets/images/ImgProjetos/godofwar.png"
+              title="God Of War"
+              subtitle="Página feito em HTML, SCSS e JAVASCRIPT"
+              project="https://elyasrodrigues.github.io/god-of-war/"
+              repository="https://github.com/ElyasRodrigues/god-of-war"
             />
             <Card img="/assets/images/ImgProjetos/dev.PNG"
               title="Em breve"
