@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
 }
 .contactContainer h1{
   margin-bottom: 20px;
@@ -56,6 +57,35 @@
 .contactForm button:hover{
   transform: scale(1.1);
 }
+
+.whatsappContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.whatsappContent h3{
+  font-size: 20px;
+}
+.zapIcon{
+  font-size: 65px;
+  animation: zap ease-in-out infinite 4s;
+}
+
+
+@keyframes zap{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
 
 @media (max-width: 430px){
   .contactContent{

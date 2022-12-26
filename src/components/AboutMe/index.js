@@ -20,7 +20,7 @@ export default function AboutMe(){
           </h3>
           <p className="socialNetworks">
             <a href="https://github.com/ElyasRodrigues/" target={"blank"}><FaGithub/></a>
-            <a href="https://www.linkedin.com/in/elyasrodrigues/" target={"blank"}><FaLinkedin/></a>
+            <a href="#" target={"blank"}><FaLinkedin/></a>
             <a href="https://www.instagram.com/oelyasrodrigues/" target={"blank"}><FaInstagram/></a>
           </p>
         </div>

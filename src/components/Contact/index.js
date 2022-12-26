@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import "./contact.css"
+import { FaWhatsapp } from "react-icons/fa"
 import emailjs from "@emailjs/browser"
 import { toast } from "react-toastify"
 import AOS from "aos"
@@ -72,6 +73,10 @@ export default function Contact(){
           />
           <button>Enviar</button>
         </form>
+      </div>
+      <div className="whatsappContent">
+        <h3>Ou se preferir, me chama no..</h3>
+        <a className="zapIcon" href="#"><FaWhatsapp/></a>
       </div>
     </div>
   )

@@ -102,10 +102,10 @@
 }
 @media (max-width: 440px){
   .headerContainer{
-    padding: 0 15px;
+    padding: 0 6px;
   }
   .headerContainer .logo{
-    font-size: 14px;
+    padding-left: 20px;
   }
 
 }
