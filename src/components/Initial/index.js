@@ -4,8 +4,10 @@ export default function Initial (){
   return (
     <div className="container">
       <div className="textArea">
-        <p>Olá, me chamo <span id="name">Elyas Rodrigues</span> e posso ser seu novo <span id="dev">desenvolvedor front-end</span></p>
-
+        <p>Olá, me chamo</p>
+        <p id="name">Elyas Rodrigues</p>
+        <p> e posso ser seu novo </p>
+        <p id="dev">desenvolvedor front-end</p>
         <button><a href="#contact">Contato</a></button>
       </div>
       <div className="imgArea">

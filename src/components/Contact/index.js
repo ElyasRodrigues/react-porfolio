@@ -76,7 +76,7 @@ export default function Contact(){
       </div>
       <div className="whatsappContent">
         <h3>Ou se preferir, me chama no..</h3>
-        <a className="zapIcon" href="#"><FaWhatsapp/></a>
+        <a className="zapIcon" href="https://wa.me/98988149744?text=Ol%C3%A1,%20vi%20seu%20portf%C3%B3lio%20e%20voc%C3%AA%20se%20encaixa%20no%20que%20eu%20procuro,%20meu%20nome%20%C3%A9"><FaWhatsapp/></a>
       </div>
     </div>
   )

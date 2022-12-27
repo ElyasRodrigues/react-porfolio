@@ -1,22 +1,24 @@
 .container{
+  width: 100%;
+  max-width: 392px;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 150px;
-  margin: 0px 50px;
+  gap: 120px;
+  margin: 0 auto;
 }
 .textArea{
   font-weight: 700;
   font-size: 33px;
-  width: 370px;
+  width: 390px;
   padding: 16px;
 }
 #name{
   font-weight: 800;
   font-size: 36px;
   color: #d2d2d2;
-  padding-right: 100px;
+  /* padding-right: 100px; */
   white-space: nowrap;
 }
 #dev{
@@ -46,6 +48,7 @@
   padding: 9px 35px;
 }
 .imgArea img{
+  padding-right: 16px;
   width: 300px;
   height: 300px;
   animation: float 5s ease-in-out infinite;
@@ -69,7 +72,7 @@
   }
   #name{
     font-size: 32px;
-    padding-right: 80px;
+    /* padding-right: 80px; */
   }
   #dev{
     font-size: 30px;
@@ -87,8 +90,9 @@
     width: 300px;
   }
   #name{
+    width: 100%;
+    max-width: 92%;
     font-size: 28px;
-    padding-right: 26px;
   }
   #dev{
     font-size: 28px;
