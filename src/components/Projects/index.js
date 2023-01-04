@@ -17,17 +17,18 @@ return(
     <div className="projectsContainer">
       <h1 id="projects">Projetos</h1>
       <div className="projectCards">
-        <Card img="/assets/images/ImgProjetos/calcJS.PNG"
-          title="Calc Js"
-          subtitle="Calculadora com todas as operações básicas e troca de tema"
-          project="https://elyasRodrigues.github.io/calcJs"
-          repository="https://github.com/ElyasRodrigues/calcJs"
-        />
+
         <Card img="/assets/images/ImgProjetos/rLinks.PNG"
         title="R Link's"
           subtitle="Um App Web para salvar links conectado com o Firebase"
           project="https://rlinks.vercel.app/"
           repository="https://github.com/ElyasRodrigues/devLink"
+        />
+        <Card img="/assets/images/ImgProjetos/todoList.PNG"
+        title="Todo List"
+          subtitle="projeto feito em Javascript com armazenamento no Local Storage"
+          project="https://elyasrodrigues.github.io/todoList/"
+          repository="https://github.com/ElyasRodrigues/todoList"
         />
         <Card img="/assets/images/ImgProjetos/memoryGame.PNG"
           title="Memory game"
@@ -55,17 +56,23 @@ return(
               project="https://elyasrodrigues.github.io/qrGenerate/"
               repository="https://github.com/ElyasRodrigues/qrGenerate"
             />
-            <Card img="/assets/images/ImgProjetos/todoList.PNG"
-            title="Todo List"
-              subtitle="projeto feito em Javascript com armazenamento no Local Storage"
-              project="https://elyasrodrigues.github.io/todoList/"
-              repository="https://github.com/ElyasRodrigues/todoList"
-            />
+            <Card img="/assets/images/ImgProjetos/calcJS.PNG"
+              title="Calc Js"
+              subtitle="Calculadora com todas as operações básicas e troca de tema"
+              project="https://elyasRodrigues.github.io/calcJs"
+              repository="https://github.com/ElyasRodrigues/calcJs"
+            />            
             <Card img="/assets/images/ImgProjetos/godofwar.png"
               title="God Of War"
               subtitle="Página feito em HTML, SCSS e JAVASCRIPT"
               project="https://elyasrodrigues.github.io/god-of-war/"
               repository="https://github.com/ElyasRodrigues/god-of-war"
+            />
+            <Card img="/assets/images/ImgProjetos/imc.png"
+              title="Calcule seu IMC"
+              subtitle="Página feito em HTML, CSS e JAVASCRIPT"
+              project="https://elyasrodrigues.github.io/calcIMC/"
+              repository="https://github.com/ElyasRodrigues/calcIMC"
             />
             <Card img="/assets/images/ImgProjetos/dev.PNG"
               title="Em breve"
