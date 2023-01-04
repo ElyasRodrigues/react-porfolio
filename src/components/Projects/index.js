@@ -68,7 +68,7 @@ return(
               project="https://elyasrodrigues.github.io/god-of-war/"
               repository="https://github.com/ElyasRodrigues/god-of-war"
             />
-            <Card img="/assets/images/ImgProjetos/imc.png"
+            <Card img="/assets/images/ImgProjetos/imc.PNG"
               title="Calcule seu IMC"
               subtitle="Página feito em HTML, CSS e JAVASCRIPT"
               project="https://elyasrodrigues.github.io/calcIMC/"
