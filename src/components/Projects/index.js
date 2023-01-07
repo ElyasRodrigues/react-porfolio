@@ -24,17 +24,17 @@ return(
           project="https://rlinks.vercel.app/"
           repository="https://github.com/ElyasRodrigues/devLink"
         />
+        <Card img="/assets/images/ImgProjetos/finance.PNG"
+          title="Controle de finanças"
+          subtitle="App web em ReactJs com armazenamento de dados no Local Storage"
+          project="https://er-finance.vercel.app/"
+          repository="https://github.com/ElyasRodrigues/finance-control"
+        />
         <Card img="/assets/images/ImgProjetos/todoList.PNG"
         title="Todo List"
           subtitle="projeto feito em Javascript com armazenamento no Local Storage"
           project="https://elyasrodrigues.github.io/todoList/"
           repository="https://github.com/ElyasRodrigues/todoList"
-        />
-        <Card img="/assets/images/ImgProjetos/finance.PNG"
-          title="Controle de finanças"
-          subtitle="App web feito com ReactJs com armazenamento no Local Storage"
-          project="https://er-finance.vercel.app/"
-          repository="https://github.com/ElyasRodrigues/finance-control"
         />
         {showProjectsAll && (
           <>
