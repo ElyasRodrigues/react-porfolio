@@ -14,7 +14,7 @@ export default function Projects(){
     }
   }
 return(
-    <div className="projectsContainer">
+    <section className="projectsContainer">
       <h1 id="projects">Projetos</h1>
       <div className="projectCards">
 
@@ -98,6 +98,6 @@ return(
       <>
         <button id="btnShow" onClick={showHide}><BsCaretUpFill/></button>
       </>}
-    </div>
+    </section>
   )
 }

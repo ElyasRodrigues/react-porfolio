@@ -2,7 +2,7 @@ import "./initial.css"
 
 export default function Initial (){
   return (
-    <div className="container">
+    <section className="container">
       <div className="textArea">
         <p>Olá, me chamo</p>
         <p id="name">Elyas Rodrigues</p>
@@ -13,6 +13,6 @@ export default function Initial (){
       <div className="imgArea">
         <img src="/assets/images/initialimg.png"/>
       </div>
-    </div>
+    </section>
   )
 }

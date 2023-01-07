@@ -9,7 +9,7 @@ export default function AboutMe(){
     AOS.init({duration: 2000})
   })
   return(
-    <div className="aboutMecontainer">
+    <section className="aboutMecontainer">
       <h1 id="aboutMe">Sobre mim</h1>
 
       <div className="content">
@@ -35,6 +35,6 @@ export default function AboutMe(){
       </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

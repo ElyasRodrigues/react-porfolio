@@ -8,7 +8,7 @@ export default function Skills(){
     AOS.init({duration: 2000})
   })
   return(
-    <div className="skillsContainer">
+    <section className="skillsContainer">
       <h1 id="skills"> Skills </h1>
       <div className="skillsContent" >
         <ul className="skillsList">
@@ -37,6 +37,6 @@ export default function Skills(){
           </li>
         </ul>
       </div>
-    </div>
+    </section>
   )
 }
