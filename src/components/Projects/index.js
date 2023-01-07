@@ -20,7 +20,7 @@ return(
 
         <Card img="/assets/images/ImgProjetos/rLinks.PNG"
         title="R Link's"
-          subtitle="Um App Web para salvar links conectado com o Firebase"
+          subtitle="Um App Web em ReactJS para salvar links conectado com o Firebase"
           project="https://rlinks.vercel.app/"
           repository="https://github.com/ElyasRodrigues/devLink"
         />
@@ -30,14 +30,20 @@ return(
           project="https://elyasrodrigues.github.io/todoList/"
           repository="https://github.com/ElyasRodrigues/todoList"
         />
-        <Card img="/assets/images/ImgProjetos/memoryGame.PNG"
-          title="Memory game"
-          subtitle="Jogo da memória com o tema dos Vingadores"
-          project="https://elyasRodrigues.github.io/AvengersMemoryGame"
-          repository="https://github.com/ElyasRodrigues/AvengersMemoryGame"
+        <Card img="/assets/images/ImgProjetos/finance.PNG"
+          title="Controle de finanças"
+          subtitle="App web feito com ReactJs com armazenamento no Local Storage"
+          project="https://er-finance.vercel.app/"
+          repository="https://github.com/ElyasRodrigues/finance-control"
         />
         {showProjectsAll && (
           <>
+            <Card img="/assets/images/ImgProjetos/memoryGame.PNG"
+              title="Memory game"
+              subtitle="Jogo da memória com o tema dos Vingadores"
+              project="https://elyasRodrigues.github.io/AvengersMemoryGame"
+              repository="https://github.com/ElyasRodrigues/AvengersMemoryGame"
+            />
             <Card img="/assets/images/ImgProjetos/tictactoe.PNG"
               title="Tic Tac Toe"
               subtitle="O famoso jogo da velha, para 2 jogadores"
