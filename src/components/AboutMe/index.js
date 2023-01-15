@@ -19,9 +19,9 @@ export default function AboutMe(){
             Elyas Rodrigues
           </h3>
           <p className="socialNetworks">
-            <a href="https://github.com/ElyasRodrigues/" target={"blank"}><FaGithub/></a>
-            <a href="https://www.linkedin.com/in/elyasrodrigues/" target={"blank"}><FaLinkedin/></a>
-            <a href="https://www.instagram.com/oelyasrodrigues/" target={"blank"}><FaInstagram/></a>
+            <a href="https://github.com/ElyasRodrigues/" target={"_blank"}><FaGithub/></a>
+            <a href="https://www.linkedin.com/in/elyasrodrigues/" target={"_blank"}><FaLinkedin/></a>
+            <a href="https://www.instagram.com/oelyasrodrigues/" target={"_blank"}><FaInstagram/></a>
           </p>
         </div>
         <div className="contentText">
