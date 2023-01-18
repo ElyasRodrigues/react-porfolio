@@ -30,14 +30,20 @@ return(
           project="https://er-finance.vercel.app/"
           repository="https://github.com/ElyasRodrigues/finance-control"
         />
-        <Card img="/assets/images/ImgProjetos/todoList.PNG"
-        title="Todo List"
-          subtitle="projeto feito em Javascript com armazenamento no Local Storage"
-          project="https://elyasrodrigues.github.io/todoList/"
-          repository="https://github.com/ElyasRodrigues/todoList"
+        <Card img="/assets/images/ImgProjetos/erflix.PNG"
+          title="ER FLIX"
+          subtitle="Um App Web em ReactJS que lista diversos filmes e sistema de busca"
+          project="https://erflix.vercel.app/"
+          repository="https://github.com/ElyasRodrigues/er-flix"
         />
         {showProjectsAll && (
           <>
+            <Card img="/assets/images/ImgProjetos/todoList.PNG"
+            title="Todo List"
+              subtitle="projeto feito em Javascript com armazenamento no Local Storage"
+              project="https://elyasrodrigues.github.io/todoList/"
+              repository="https://github.com/ElyasRodrigues/todoList"
+            />
             <Card img="/assets/images/ImgProjetos/memoryGame.PNG"
               title="Memory game"
               subtitle="Jogo da memória com o tema dos Vingadores"
