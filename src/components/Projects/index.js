@@ -32,7 +32,7 @@ return(
         />
         <Card img="/assets/images/ImgProjetos/erflix.PNG"
           title="ER FLIX"
-          subtitle="Um App Web em ReactJS que lista diversos filmes e sistema de busca"
+          subtitle="Um App Web em ReactJS que lista diversos filmes e com sistema de busca"
           project="https://erflix.vercel.app/"
           repository="https://github.com/ElyasRodrigues/er-flix"
         />
